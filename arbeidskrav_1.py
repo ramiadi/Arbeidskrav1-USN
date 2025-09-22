@@ -16,8 +16,8 @@ def totalkostnad_elbil(km_per_år, dager):
 def totalkostnad_bensinbil(km_per_år, dager):
     forsikring = 7500
     trafikkforsikringsavgift = 8.38 * dager
-    drivstoff = km_per_år * 0.1
-    bom = km_per_år * 0.1
+    drivstoff = km_per_år * 1
+    bom = km_per_år * 0.3
     return forsikring + trafikkforsikringsavgift + drivstoff + bom
 
 km_per_år = 10000
